@@ -63,11 +63,12 @@ form {
 }
 
 form > div {
-    margin: 10px;
+    height: 60px;
+    margin: 10px 10px;
 }
 
 input {
-    width: 80%;
+    width: 90%;
     height: 40px;
     padding: 0 5px;
     outline: none;
@@ -76,6 +77,8 @@ input {
 }
 
 span{
+    font-size: 12px;
+    font-weight: bold;
     margin: 0 6px;
 }
 
@@ -98,14 +101,6 @@ input:invalid {
     /* border: 0.5px solid var(--input-invalid); */
 }
 
-/* span:invalid {
-    color: var(--input-invalid);
-}
-
-span:valid {
-    color: var(--input-valid);
-} */
-
 #submit-btn {
     position: absolute;
     bottom: 20px;
@@ -121,6 +116,7 @@ span:valid {
     transform: translate(-3px, -3px);
     border: 1px solid #001858;
     box-shadow: 3px 3px 1px #001858;
+    outline: none;
 }
 
 #submit-btn:hover {
@@ -135,14 +131,29 @@ span:valid {
 
 #required {
     position: absolute;
+    color: inherit;
     font-size: 11px;
     font-style: italic;
+    font-weight: inherit;
     bottom: 10px;
     left: 10px;
 }
+
 /* Utilities */
 .container {
     width: 100%;
     height: 100%;
+}
+
+.el-invalid {
+    color: var(--input-invalid);
+}
+
+.el-valid {
+    color: var(--input-valid);
+}
+
+.mr-15 {
+    margin-right: 15px;
 }
 

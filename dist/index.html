@@ -11,33 +11,30 @@
     <div class="container">
         <div class="form-container">
             <h2>Form Validation.</h2>
-            <form>
+            <form novalidate>
                 <div>
-                    <input id="" type="email" name="" placeholder="email*" required minlength="8">
-                    <span id="">
-                        <i class="fas fa-exclamation-circle"></i>
+                    <input id="email" type="email" name="email" placeholder="email*" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" minlength="8">
+                    <span id="email-err-container">
+                        <!-- <i class="fas fa-exclamation-circle"></i> -->
                         <!-- <i class="fas fa-check-circle"></i> -->
-                        validation message
+                        <!-- validation message -->
                     </span>
-                    <!-- <span id="">validation message</span> -->
                 </div>
                 <div>
-                    <input id="" type="text" name="" placeholder="country*" required>
-                    <span id="">
-                        <i class="fas fa-exclamation-circle"></i>
-                        validation message
+                    <input id="country" type="text" name="country" placeholder="country*" required>
+                    <span id="country-err-container">
+                        <!-- <i class="fas fa-exclamation-circle"></i> -->
                         <!-- <i class="fas fa-check-circle"></i> -->
+                        <!-- validation message -->
                     </span>
-                    <!-- <span id="">validation message</span> -->
                 </div>
                 <div>
-                    <input id="" type="text" name="" placeholder="zip code*" required>
-                    <span id="">
-                        <i class="fas fa-exclamation-circle"></i>
-                        validation message
+                    <input id="zip" type="text" name="zip-code" placeholder="zip code*" required>
+                    <span id="zip-err-container">
+                        <!-- <i class="fas fa-exclamation-circle"></i> -->
                         <!-- <i class="fas fa-check-circle"></i> -->
+                        <!-- validation message -->
                     </span>
-                    <!-- <span id="">validation message</span> -->
                 </div>
                 <div>
                     <span id="required">*required</span>
