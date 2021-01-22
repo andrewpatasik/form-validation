@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/andrewpatasik/form-validation#readme",
   "devDependencies": {
-    "countries-list": "^2.6.1",
     "css-loader": "^5.0.1",
     "mini-css-extract-plugin": "^1.3.4",
     "webpack": "^5.16.0",
     "webpack-cli": "^4.4.0"
   },
   "dependencies": {
+    "countrylists": "^1.0.0",
     "lodash": "^4.17.20"
   }
 }
