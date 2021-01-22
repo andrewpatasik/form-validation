@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/66c5b2aca7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Form-Validation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Form Validation.</h2>
+            <form>
+                <div>
+                    <input id="" type="email" name="" placeholder="email*" required minlength="8">
+                    <span id="">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <!-- <i class="fas fa-check-circle"></i> -->
+                        validation message
+                    </span>
+                    <!-- <span id="">validation message</span> -->
+                </div>
+                <div>
+                    <input id="" type="text" name="" placeholder="country*" required>
+                    <span id="">
+                        <i class="fas fa-exclamation-circle"></i>
+                        validation message
+                        <!-- <i class="fas fa-check-circle"></i> -->
+                    </span>
+                    <!-- <span id="">validation message</span> -->
+                </div>
+                <div>
+                    <input id="" type="text" name="" placeholder="zip code*" required>
+                    <span id="">
+                        <i class="fas fa-exclamation-circle"></i>
+                        validation message
+                        <!-- <i class="fas fa-check-circle"></i> -->
+                    </span>
+                    <!-- <span id="">validation message</span> -->
+                </div>
+                <div>
+                    <span id="required">*required</span>
+                    <button id="submit-btn" class="card-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
